@@ -1,1 +1,78 @@
-/* You can add global styles to this file, and also import other style files */
+h1 {
+  color: darkcyan;
+  font-family: "helvetica", sans-serif;
+
+}
+
+
+
+
+
+ul {
+  list-style: none;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.grid.headline{
+  flex-grow: 1;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 560px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative; /* Hinzufügen einer relativen Positionierung zur Karte */
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.list li img {
+  width: 140px;
+  margin-right: 20px;
+}
+
+.list li .content {
+  flex: 1;
+}
+
+.list li h2 {
+  font-size: 20px;
+  color: darkcyan;
+  font-family: "helvetica", sans-serif;
+  margin: 0 0 10px 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.list li p {
+  font-size: 14px;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  position: absolute; /* Hinzufügen einer absoluten Positionierung zum Button */
+  bottom: 10px; /* Platzierung des Buttons 10 Pixel von der unteren Kante der Karte */
+  right: 10px; /* Platzierung des Buttons 10 Pixel von der rechten Kante der Karte */
+}

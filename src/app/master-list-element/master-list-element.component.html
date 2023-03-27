@@ -1,0 +1,12 @@
+<div class="card"> 
+    <button (click)="zeigeDetails(element!.titel)">Zeige Details</button>
+    <ul class="list">
+      <li>
+        <img src= {{element!.image}} alt="Platzhalterbild">
+        <div class="content">
+          <h2>{{element!.titel}}</h2>
+          <p>{{element!.kurztext}}</p>
+        </div>
+      </li>
+    </ul>
+  </div>
